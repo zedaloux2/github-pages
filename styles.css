@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f0f;
+  color: #fff;
+}
+
+h1, h2, h3 {
+  font-family: 'Press Start 2P', cursive;
+  color: #00ff00;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('https://example.com/your-image.jpg'); /* Replace with your game-themed image */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 4em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background-color: #00ff00;
+  color: #0f0f0f;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #00cc00;
+}
+
+/* About Section */
+.about {
+  background-color: #1a1a1a;
+  padding: 40px;
+  text-align: center;
+}
+
+.about p {
+  font-size: 1.2em;
+}
+
+/* Mod Setup Section */
+.mod-setup {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.mod-card {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 30%;
+  transition: transform 0.3s;
+}
+
+.mod-card:hover {
+  transform: scale(1.1);
+}
+
+.mod-card h3 {
+  font-size: 2em;
+  color: #ffcc00;
+}
+
+.mod-card p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.mod-card a {
+  background-color: #00ff00;
+  color: #0f0f0f;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.mod-card a:hover {
+  background-color: #00cc00;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #333;
+  padding: 40px;
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact input, .contact textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.contact button {
+  background-color: #00ff00;
+  color: #0f0f0f;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact button:hover {
+  background-color: #00cc00;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 1em;
+  color: #aaa;
+}
